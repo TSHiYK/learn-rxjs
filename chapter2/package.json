@@ -1,7 +1,7 @@
 {
-  "name": "chapter1",
+  "name": "chapter2",
   "version": "1.0.0",
-  "description": "Chapter 1 - The Reactive Way",
+  "description": "Chapter 2 - Deep in the Sequence",
   "main": "index.js",
   "scripts": {
     "build": "webpack --inline --colors --progress --display-error-details --display-cached",
@@ -13,9 +13,11 @@
     "@types/es6-shim": "^0.31.32",
     "@types/rx": "^2.5.32",
     "es6-shim": "^0.35.1",
+    "leaflet": "^0.7.7",
     "rxjs": "^5.0.0-beta.12"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.0.33",
     "ts-loader": "^0.8.2",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
