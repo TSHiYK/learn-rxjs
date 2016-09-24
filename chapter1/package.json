@@ -1,0 +1,29 @@
+{
+  "name": "chapter1",
+  "version": "1.0.0",
+  "description": "Chapter 1 - The Reactive Way",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --inline --colors --progress --display-error-details --display-cached",
+    "server": "webpack-dashboard -c cyan -- webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080  --content-base dist",
+    "start": "npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/es6-shim": "^0.31.32",
+    "@types/rx": "^2.5.32",
+    "es6-shim": "^0.35.1",
+    "rxjs": "^5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "tslint-loader": "^2.1.5",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.8",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
